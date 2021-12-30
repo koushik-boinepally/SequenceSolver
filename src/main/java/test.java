@@ -7,7 +7,7 @@ public class test {
     static ArrayList<int[]> prevArrayList = new ArrayList();
     static long[] pattern = {2, 3, 5, 7, 11, 13};
     public static void main(String[] args) {
-        com.mycompany.patternrecognitionv1.BasicSequenceCompleter sc = new com.mycompany.patternrecognitionv1.BasicSequenceCompleter(pattern);
+        BasicSequenceCompleter sc = new BasicSequenceCompleter(pattern);
         Logln(sc.getNextInSequence());
         Logln(sc.getRelation());
     }
